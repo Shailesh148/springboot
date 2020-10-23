@@ -15,7 +15,6 @@ import java.util.function.Predicate;
 @RunWith(SpringRunner.class)
 public class FunctionalInterfaceTest {
 
-
     @Test
     public void testfunctionalInterface() {
         FunctionalInterfaceTestYo<String> functionalInterface1 = s -> s.length() > 1;
